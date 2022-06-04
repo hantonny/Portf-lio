@@ -56,39 +56,7 @@ export default function Home() {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-5 p-2">
-          <div className="border rounded mb-1 shadow-sm ml-1 bg-light">
-            <div className="col p-3">
-              <strong className="d-inline-block mb-2 text-success">Portfólio</strong>
-              <div className="border rounded mb-2 shadow-sm p-2 text-center">
-                <Link href="https://sorteiogram-hantonny.vercel.app/">
-                  <a target="_blank">Sorteio de Números e Nomes - Next.js</a>
-                </Link>
-              </div>
-              <div className="border rounded mb-2 shadow-sm p-2 text-center">
-                <Link href="https://www.linkedin.com/posts/hantonny-korrea-2853911a0_projeto-recicla-objetivo-auxiliar-o-consumidor-activity-6687181249867476992-8lk9">
-                  <a target="_blank">Recicla - Laravel</a>
-                </Link>
-              </div>
-              <div className="border rounded mb-2 shadow-sm p-2 text-center">
-                <Link href="https://www.linkedin.com/posts/hantonny-korrea-2853911a0_projeto-seu-bolso-organizador-de-finan%C3%A7as-activity-6688972255034126336-EJO0">
-                  <a target="_blank">Seu Bolso - Laravel</a>
-                </Link>
-              </div>
-              <div className="border rounded mb-2 shadow-sm p-2 text-center">
-                <Link href="https://github.com/hantonny/Todo-List/tree/hantonny-korrea">
-                  <a target="_blank">Todo-List - Laravel</a>
-                </Link>
-              </div>
-              <div className="border rounded mb-2 shadow-sm p-2 text-center">
-                <Link href="https://www.linkedin.com/posts/hantonny-korrea-2853911a0_movieflix-objetivo-ajudar-os-usu%C3%A1rios-a-activity-6705981582013939712-hDWf">
-                  <a target="_blank">MovieFlix - Laravel</a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-7 p-2">
+      <div className="col-md-12 p-2">
           <div className="border rounded mb-1 shadow-sm bg-light">
             <div className="col p-4 mb-2">
               <strong className="d-inline-block mb-3 text-primary">Skills Hard</strong>
@@ -145,6 +113,43 @@ export default function Home() {
                   <FontAwesomeIcon icon={['fab', 'docker']} size="3x" color="#2496ed" />
                   <p className="card-text mb-auto fst-italic">Docker</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-12 p-2">
+          <div className="border rounded mb-1 shadow-sm ml-1 bg-light">
+            <div className="col p-3">
+              <strong className="d-inline-block mb-2 text-success">Portfólio</strong>
+              <div className="border rounded mb-2 shadow-sm p-2 text-center">
+                <Link href="https://sorteiogram-hantonny.vercel.app/">
+                  <a target="_blank">Sorteio de Números e Nomes - Next.js</a>
+                </Link>
+              </div>
+              <div className="border rounded mb-2 shadow-sm p-2 text-center">
+                <Link href="https://lustrous-cannoli-41c6e4.netlify.app/">
+                  <a target="_blank">GitHub Explorer - ReactJS</a>
+                </Link>
+              </div>
+              <div className="border rounded mb-2 shadow-sm p-2 text-center">
+                <Link href="https://www.linkedin.com/posts/hantonny-korrea-2853911a0_projeto-recicla-objetivo-auxiliar-o-consumidor-activity-6687181249867476992-8lk9">
+                  <a target="_blank">Recicla - Laravel</a>
+                </Link>
+              </div>
+              <div className="border rounded mb-2 shadow-sm p-2 text-center">
+                <Link href="https://www.linkedin.com/posts/hantonny-korrea-2853911a0_projeto-seu-bolso-organizador-de-finan%C3%A7as-activity-6688972255034126336-EJO0">
+                  <a target="_blank">Seu Bolso - Laravel</a>
+                </Link>
+              </div>
+              <div className="border rounded mb-2 shadow-sm p-2 text-center">
+                <Link href="https://github.com/hantonny/Todo-List/tree/hantonny-korrea">
+                  <a target="_blank">Todo-List - Laravel</a>
+                </Link>
+              </div>
+              <div className="border rounded mb-2 shadow-sm p-2 text-center">
+                <Link href="https://www.linkedin.com/posts/hantonny-korrea-2853911a0_movieflix-objetivo-ajudar-os-usu%C3%A1rios-a-activity-6705981582013939712-hDWf">
+                  <a target="_blank">MovieFlix - Laravel</a>
+                </Link>
               </div>
             </div>
           </div>
