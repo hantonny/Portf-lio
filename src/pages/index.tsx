@@ -127,7 +127,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="border rounded mb-2 shadow-sm p-2 text-center">
-                <Link href="https://lustrous-cannoli-41c6e4.netlify.app/">
+                <Link href="https://githubexplorerhantonnykorrea.netlify.app/">
                   <a target="_blank">GitHub Explorer - ReactJS</a>
                 </Link>
               </div>
